@@ -1,6 +1,8 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact} from 'react-icons/fa';
 import { RiReactjsFill } from "react-icons/ri";
+import { SiExpress, SiMongodb } from "react-icons/si";
+
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -32,8 +34,20 @@ export const skills = [
     id: nanoid(),
     title: 'React Native',
     icon: <RiReactjsFill className='h-16 w-16 text-black' />,
-    text: 'React Native developer building performant mobile apps on both the iOS and Android platforms. A strong team player with a commitment to perfection.',
+    text: 'React Native developer building performance mobile apps on both the iOS and Android platforms. A strong team player with a commitment to perfection.',
   },
+{
+  id: nanoid(),
+    title: 'Node-Express',
+    icon: <SiExpress className='h-16 w-16 text-emerald-500' />,
+    text: ' Design and develop server-side applications and APIs using Node.js,  Using web frameworks like Express.js to build robust and scalable back-end solutions.',
+},
+{
+  id: nanoid(),
+    title: 'MongoDb',
+    icon: <SiMongodb  className='h-16 w-16 text-emerald-500' />,
+    text: ' Design, maintain, and optimize databases, including data modeling and querying',
+},
 ];
 
 export const projects = [
